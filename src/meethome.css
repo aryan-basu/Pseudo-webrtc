@@ -1,0 +1,42 @@
+
+.form1{
+
+    padding-top: 10px;
+    padding-left: 590px;
+    padding-right: 590px;
+}
+
+.heading1{
+
+    padding-top: 25px;
+}
+.or{
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+.or::before, .or::after{
+    background-color: white;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 9.60%;
+}
+.or::before{
+    right: 0.5em;
+    margin-left: -50px;
+}
+.or::after{
+    left: 0.5em;
+    margin-right: -50px;
+}
+.btn1{
+    margin-top: 17px;
+    font-size: 19px;
+    width: 340px
+}
+.logout{
+    background-color: black;
+}
